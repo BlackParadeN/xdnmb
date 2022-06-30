@@ -3,14 +3,40 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "xdnmb",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"titleAlign": "left",
+						"subtitleText": "xdnmb.com",
+						"buttons": [{
+							"text": "\uf039",
+							"float": "left",
+							"fontSrc": "/static/fontawesome-webfont.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						},{
+							"text": "\uf141",
+							"float": "right",
+							"fontSrc": "/static/fontawesome-webfont.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						},{
+							"text": "\uf044",
+							"float": "right",
+							"fontSrc": "/static/fontawesome-webfont.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "xdnmb",
+		"navigationBarBackgroundColor": "#3eb370",
+		"backgroundColor": "#69b076"
 	}
 }
