@@ -1,4 +1,6 @@
 .hbuilderx/
+.vite/
+
 unpackage/
 node_modules/
 dist/
