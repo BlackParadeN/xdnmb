@@ -28,3 +28,25 @@ export function handlePreview(imgUrl) {
 		urls: [config.imgUrl + imgUrl]
 	})
 }
+
+/**
+ * 页面串去重
+ */
+let viewedThread = new Set()
+export function addViews(arr) {
+	arr.forEach(e => {
+		viewedThread.add(e.id)
+	})
+}
+
+export function addView(id) {
+	viewedThread.add(id)
+}
+
+export function clearViews() {
+	viewedThread.clear()
+}
+
+export function hasView(id) {
+	return viewedThread.has(id)
+}
