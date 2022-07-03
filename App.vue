@@ -19,6 +19,7 @@
 </script>
 
 <style lang='scss'>
+	@import url("./static/font-awesome.min.css");
 	/*每个页面公共css */
 	
 	.flex {
