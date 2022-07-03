@@ -15,14 +15,40 @@
 							"fontSrc": "/static/fontawesome-webfont.ttf",
 							"fontSize": "22px",
 							"color": "#FFFFFF"
-						},{
+						}, {
 							"text": "\uf141",
 							"float": "right",
 							"fontSrc": "/static/fontawesome-webfont.ttf",
 							"fontSize": "22px",
 							"color": "#FFFFFF"
-						},{
+						}, {
 							"text": "\uf044",
+							"float": "right",
+							"fontSrc": "/static/fontawesome-webfont.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"navigationBarTitleText": "xdnmb",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"titleAlign": "left",
+						"subtitleText": "xdnmb.com",
+						"buttons": [{
+							"text": "\uf141",
+							"float": "right",
+							"fontSrc": "/static/fontawesome-webfont.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}, {
+							"text": "\uf112",
 							"float": "right",
 							"fontSrc": "/static/fontawesome-webfont.ttf",
 							"fontSize": "22px",

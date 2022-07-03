@@ -10,3 +10,11 @@ export function timeLine(params) {
 		params: params
 	})
 }
+
+export function detail(params) {
+	return request({
+		url: "/Api/thread",
+		method: "get",
+		params: params
+	})
+}
